@@ -1,0 +1,130 @@
+body{
+    background-image: url(https://images.hdqwalls.com/wallpapers/retrowave-road-4k-u1.jpg);
+    background-size: cover;
+}
+
+#cart-parent {
+    background-image: url(https://rare-gallery.com/uploads/posts/340193-Digital-Art-Synthwave-Retrowave-Vaporwave-Mountain-Night.jpg);
+    background-size: cover;
+    width: 500px;
+    height: 500px;
+    overflow: auto;
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1.5cm;
+}
+
+.cart-item {
+    margin-left: 2cm;
+    display: flex;
+    margin-bottom: 5px;
+    flex-direction: row;
+    align-items: center; /* Center the image and text vertically */
+}
+.cart-item button{
+    padding: 5px;
+    border-radius: 5px;
+    max-width: 200px;
+    cursor: pointer;
+    background-color: #9D50BB;
+    color: #39FF14;
+    border: 2px solid #39FF14;
+    margin-top: 8px;
+    font-family: "Jersey 10", sans-serif;
+    font-weight: 1.3rem;
+    transition: 0.3s;
+}
+.cart-item button:hover, .cart-item button:focus{
+    background-color: #c76aec;
+}
+.cart-item img {
+    width: 120px;
+    height: 130px;
+    border-radius: 5px;
+    object-fit: cover;
+    margin-right: 15px; /* Space between the image and text */
+}
+
+.cart-item div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Center the text vertically */
+    flex-grow: 1; /* Allow the text container to take up remaining space */
+    max-width: calc(100% - 115px); /* Ensure the text container doesn't push the image */
+}
+
+#item-details {
+    font-family: "Jersey 10", sans-serif;
+    color: #39FF14;
+    font-weight: lighter;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+#item-details h2 {
+    font-size: 1.5rem; /* Adjusted font size for better fit */
+    margin: 0; /* Remove default margin */
+    white-space: nowrap; /* Prevent wrapping of the game name */
+    overflow: hidden;
+    text-overflow: ellipsis; /* Add ellipsis if the text overflows */
+}
+
+#item-details p {
+    font-size: 1.1rem;
+    margin: 5px 0 0 0; /* Adjust margin */
+}
+#cart-head{
+    text-align: center;
+    font-family: "Jersey 10", sans-serif;
+    font-size: 4rem;
+    font-weight: lighter;
+    color: #39FF14;
+}
+#cart-head a{
+    color: #39FF14;
+}
+#cart-parent #empty-message {
+    font-size: 2.5rem;
+    font-family: "Jersey 10", sans-serif;
+    color:#39FF14;
+    text-align: center;
+}
+#buy-all-button{
+    background-color: #070129;
+    color: #00FFFF;
+    border: 2px solid #E71D73;
+    padding: 5px;
+    border-radius: 5px;
+    font-family: "Jersey 10", sans-serif;
+    font-size: 1rem;
+    transition: 0.6s;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+    margin-top: 10px;
+}
+#buy-all-button:hover{
+    background-color: #39FF14;
+    color: #070129;
+    border: 2px solid #070129;
+    cursor: pointer;
+}
+/* Do not edit or remove, this is for the scrollbar to look nicer */
+::-webkit-scrollbar {
+    width: 10px; /* Width of the scrollbar */
+}
+
+::-webkit-scrollbar-track {
+    background: #9D50BB; /* Background color of the track */
+}
+
+::-webkit-scrollbar-thumb {
+    background: #39FF14; /* Color of the scroll thumb */
+    border-radius: 3px; /* Roundness of the thumb */
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #3abb23; /* Color of the scroll thumb on hover */
+}

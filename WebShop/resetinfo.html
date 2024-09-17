@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Jersey+10&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <link rel="icon" type="image/x-icon" href="/WebShop/webshop-images/gamevault-logo.png">
+    <link rel="stylesheet" href="webshop-styles/accountmanagement.css" />
+
+    <title>Reset Info</title>
+</head>
+<body>
+    <div id="super-reset">
+        <h1>Reset Information</h1>
+        <img id="lock-image" width="70" height="90" src="webshop-images/lock.png" />
+        <p id="info-reset-head">Please select the information you want to change</p>
+        <div class="reset-info-buttons">
+            <button onclick="showResetPasswordPage()">Reset Password</button>
+            <button onclick="showResetUsernamePage()">Reset Username</button>
+        </div>
+    </div>
+
+    <!-- Display for "Reset Username" -->
+    <div id="reset-username" style="display: none;">
+        <h1>Reset Username</h1>
+        <img id="lock-image" width="70" height="90" src="webshop-images/lock.png" />
+        <div class="reset-username-input">
+            <input id="current-email-user" type="email" placeholder="Current Email" />
+            <input id="current-password-user" type="password" placeholder="Current Password" />
+            <input id="new-username-user" type="text" placeholder="New Username" />
+            <p class="error-message" id="username-error"></p>
+        </div>
+        <div class="reset-username-buttons">
+            <button onclick="resetUsernameUser()">Reset Username</button>
+        </div>
+    </div>
+
+    <!-- Display for "Reset Password" -->
+    <div id="reset-password" style="display: none;">
+        <h1>Reset Password</h1>
+        <img id="lock-image" width="70" height="90" src="webshop-images/lock.png" />
+        <div class="reset-password-input">
+            <input id="current-email-pass" type="email" placeholder="Current Email" />
+            <input id="current-password-pass" type="password" placeholder="Current Password" />
+            <input id="new-password-pass" type="password" placeholder="New Password" />
+            <p class="error-message" id="password-error"></p>
+        </div>
+        <div class="reset-password-buttons">
+            <button onclick="resetPassword()">Reset Password</button>
+        </div>
+    </div>
+
+    <!-- Ensure the script is correctly linked and loaded -->
+    <script src="./webshop-scripts/resetinfo.js" defer></script>
+</body>
+</html>

@@ -1,0 +1,48 @@
+body{
+    background-image: url(https://wallpapers.com/images/hd/retrowave-neon-landscape-4k-jemhwel7wrvkh8de.jpg);
+    background-size: cover;
+}
+.gamevault-title {
+    display: flex;
+}
+.gamevault-title a{
+    color: #C810F0;
+    margin-right: auto;
+    margin-left: auto;
+    font-family: "Jersey 10", sans-serif;
+    font-size: 6rem;
+    font-weight: lighter;
+}
+.gamevault-info{
+    color: #00CFFF;
+    text-align: center;
+    font-family: "Jersey 10", sans-serif;
+    font-size: 2.4rem;
+    font-weight: lighter;
+}
+#gamevault_logo{
+    width: 100px;
+    height: 100px;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+    border: 2px solid white;
+}
+/* Do not edit or remove, this is for the scrollbar to look nicer */
+::-webkit-scrollbar {
+    width: 10px; /* Width of the scrollbar */
+}
+
+::-webkit-scrollbar-track {
+    background: #9D50BB; /* Background color of the track */
+}
+
+::-webkit-scrollbar-thumb {
+    background: #39FF14; /* Color of the scroll thumb */
+    border-radius: 3px; /* Roundness of the thumb */
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #3abb23; /* Color of the scroll thumb on hover */
+}

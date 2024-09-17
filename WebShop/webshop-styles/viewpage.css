@@ -1,0 +1,100 @@
+body {
+    background-image: url(https://wallpapers.com/images/hd/90s-aesthetic-retrowave-neon-sunset-grid-jfe3w6yiyo66v88c.jpg);
+    background-size: cover;
+}
+#item-parent{
+    color: #18ff92;
+    display: flex;
+}
+div {
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+#view-image {
+    margin-left: auto;
+    margin-right: auto;
+    height: 350px;
+    width: 400px;
+    border-radius: 10px;
+    object-fit: cover;
+}
+div h2{
+    margin-top: 0;
+    font-family: "Jersey 10", sans-serif;
+    font-weight: lighter;
+    font-size: 4rem;
+    margin-bottom: 0;
+}
+div p{
+    font-family: "Jersey 10", sans-serif;
+    font-weight: lighter;
+    font-size: 2rem;
+    margin-bottom: 0;
+}
+div button{
+    margin-top: 6px;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-family: "Jersey 10", sans-serif;
+    font-size: 1.5rem;
+    padding: 5px;
+    border-radius: 10px;
+    background-color: #18ff92;
+    color: #ff6ec7;
+    border: 2px solid #ff6ec7;
+    transition: 0.4s;
+    margin-bottom: 5px;
+}
+div button:focus, div button:hover{
+    background-color: #34db8d;
+    cursor: pointer;
+}
+#buyitem-page{
+    display: none;
+}
+#buyitem-display{
+    background-image: url(https://4kwallpapers.com/images/wallpapers/mountains-triangle-retrowave-art-landscape-neon-reflections-2048x2048-8311.png);
+    background-size: cover;
+    border-radius: 10px;
+    width: 30%;
+    margin-top: 1cm;
+}
+#game-image{
+    width: 200px;
+    height: 200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+#buyitem-display h2{
+    font-size: 2rem;
+    color:#18ff92;
+}
+#buyitem-display p{
+    color:#18ff92;
+    margin-top: 0;
+}
+#buyitem-display input{
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15px;
+    border-radius: 5px;
+    background-color: #18ff92;
+    color:#ff6ec7;
+    font-family: "Jersey 10", sans-serif;
+    font-size: 1.5rem;
+    border: 2px solid #ff6ec7;
+}
+#error-message{
+    background-color: red;
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 2px;
+    font-size: 1.2rem;
+}

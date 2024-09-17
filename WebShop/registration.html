@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  
+  <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Jersey+10&display=swap"
+    rel="stylesheet"
+  />
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+  />
+  <link rel="icon" type="image/x-icon" href="/WebShop/webshop-images/gamevault-logo.png">
+  <link rel="stylesheet" href="./webshop-styles/accountmanagement.css">
+  <title>Register</title>
+</head>
+<body>
+  <div class="super-login">
+    <h1>Welcome to GameVault</h1>
+    <div class="social-login">
+      <i class="fab fa-google"></i>
+      <i class="fab fa-facebook"></i>
+      <i class="fab fa-playstation"></i>
+      <i class="fab fa-xbox"></i>
+      <i class="fab fa-twitter"></i>
+    </div>
+    <input id="username" placeholder="Username" type="text" required/>
+    <input id="email" placeholder="Email" type="email" required/>
+    <input id="password" placeholder="Password" type="password" required/>
+    <p class="error-message" id="registration-error"></p>
+    <button onclick="register()">Register</button>
+  </div>
+
+  <script src="webshop-scripts/registration.js" defer></script>
+</body>
+</html>
